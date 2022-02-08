@@ -23,7 +23,7 @@ import (
 	"text/tabwriter"
 
 	"github.com/dustin/go-humanize"
-	"github.com/spf13/cobra"
+	"github.com/liggitt/cobra"
 )
 
 var LSCmd = &cobra.Command{

@@ -1,3 +1,4 @@
+//go:build linux || darwin || freebsd
 // +build linux darwin freebsd
 
 /*
@@ -33,8 +34,8 @@ import (
 	"github.com/containerd/continuity"
 	"github.com/containerd/continuity/continuityfs"
 	"github.com/containerd/continuity/driver"
+	"github.com/liggitt/cobra"
 	"github.com/sirupsen/logrus"
-	"github.com/spf13/cobra"
 )
 
 var MountCmd = &cobra.Command{

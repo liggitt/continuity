@@ -21,7 +21,7 @@ import (
 	"log"
 
 	"github.com/containerd/continuity"
-	"github.com/spf13/cobra"
+	"github.com/liggitt/cobra"
 )
 
 var ApplyCmd = &cobra.Command{

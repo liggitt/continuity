@@ -1,3 +1,4 @@
+//go:build windows || solaris
 // +build windows solaris
 
 /*
@@ -19,7 +20,7 @@
 package commands
 
 import (
-	"github.com/spf13/cobra"
+	"github.com/liggitt/cobra"
 )
 
 var MountCmd *cobra.Command = nil

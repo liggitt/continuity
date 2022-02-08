@@ -21,7 +21,7 @@ import (
 	"os"
 
 	"github.com/containerd/continuity"
-	"github.com/spf13/cobra"
+	"github.com/liggitt/cobra"
 )
 
 var (
